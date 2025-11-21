@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: 'https://github.com/camilozer0/helm-templates.git'
     targetRevision: HEAD
-    path: helm-templates/guestbook-frontend
+    path: guestbook-frontend
     helm:
       valueFiles:
         - values.yaml
