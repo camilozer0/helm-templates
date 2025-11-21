@@ -1,0 +1,8 @@
+replicaCount: 1
+image:
+  repository: gcr.io/google-samples/guestbook
+  tag: v3
+service:
+  type: ClusterIP
+  port: 80
+resources: {}
